@@ -99,7 +99,7 @@ BOOL CImageButtonDlg::OnInitDialog()
 
 	// TODO: Add extra initialization here
 	CImage image;
-	image.Load(_T("..\\image\\bmp.bmp"));
+	image.Load(_T("..\\image\\png.png"));
 	m_mfcBtn.SetImage(image);
 
 	return TRUE;  // return TRUE  unless you set the focus to a control
